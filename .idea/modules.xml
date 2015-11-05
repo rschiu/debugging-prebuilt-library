@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/debugging-prebuilt-library.iml" filepath="$PROJECT_DIR$/debugging-prebuilt-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prebuiltLib.iml" filepath="$PROJECT_DIR$/prebuiltLib.iml" />
     </modules>
   </component>
 </project>
