@@ -1,0 +1,9 @@
+buildscript {
+    repositories {
+        maven { url "/usr/local/google/home/chiur/dev/work1/out/repo" }
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle-experimental:0.4.0-alpha1"
+    }
+}

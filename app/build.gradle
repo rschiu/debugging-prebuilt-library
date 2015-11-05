@@ -1,0 +1,18 @@
+
+apply plugin: "com.android.model.application"
+
+model {
+    android {
+        compileSdkVersion = 23
+        buildToolsVersion = "23.0.1"
+    }
+    android.sources {
+        main {
+            jniLibs {
+                dependencies {
+                    library file("../lib/build/intermediates/binaries/debug/obj/armeabi-v7a/libhello-jni.so") abi "armeabi-v7a"
+                }
+            }
+        }
+    }
+}
